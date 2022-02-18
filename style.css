@@ -30,3 +30,38 @@ header {
   display: flex;
   column-gap: 30px;
 }
+
+.heading {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.slogan {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.hero-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+.hero-secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  background-color: #3882f6;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
