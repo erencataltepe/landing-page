@@ -13,4 +13,4 @@ On this project my main goal is to create a landing page for a company, using Fl
 
 ## Live Site
 
-[GitHub](http://github.com)
+[Flexbox Landing Page](https://erencataltepe.github.io/landing-page/)
