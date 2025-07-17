@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 .company-logo {
@@ -13,7 +14,6 @@
   display: flex;
   height: 150px;
   background-color: #1f2937;
-  font-family: "Roboto", sans-serif;
   color: #f9faf8;
 }
 
@@ -40,4 +40,53 @@
   align-items: center;
   font-size: 24px;
   gap: 10px;
+}
+
+.header {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  background-color: #1f2937;
+  align-items: center;
+}
+
+.left-header,
+.right-header {
+  flex: 1;
+}
+
+.left-header {
+  display: flex;
+  justify-content: center;
+}
+
+.hero > h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero > p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero > button {
+  font-size: 18px;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  margin-top: 20px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.right-header > img {
+  width: 400px;
+  height: 300px;
+}
+
+.right-header {
+  display: flex;
+  justify-content: center;
 }
