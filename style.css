@@ -1,5 +1,4 @@
 body {
-  max-height: 100vh;
   display: flex;
   flex-direction: column;
   padding: 0;
@@ -74,6 +73,7 @@ button {
   flex-direction: column;
   align-items: center;
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .main-text {
@@ -110,4 +110,22 @@ button {
 
 .quote {
   background-color: #e5e7eb;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+  max-width: 700px;
+}
+
+.quote-author {
+  width: 700px;
+  font-weight: bolder;
+  text-align: right;
 }
