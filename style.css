@@ -105,7 +105,6 @@ button {
 
 .content-text {
   font-size: 18px;
-  color: #e5e7eb;
 }
 
 .quote {
@@ -128,4 +127,42 @@ button {
   width: 700px;
   font-weight: bolder;
   text-align: right;
+}
+
+.contact-main {
+  height: 200px;
+  width: 900px;
+  background-color: #3882f6;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 100px;
+}
+
+.contact-text {
+  max-width: 500px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact-main-heading {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.contact-para {
+  font-size: 13px;
+  color: #f9faf8;
+}
+
+.contact-button {
+  border: 1px solid #f9faf8;
+  border-radius: 10px;
 }
